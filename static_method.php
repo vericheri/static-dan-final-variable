@@ -5,5 +5,5 @@ class matematika {
     }
 }
 
-echo matematika::tambah(5, 3);
+echo "5 + 3 = n" . matematika::tambah(5, 3);
 ?>
