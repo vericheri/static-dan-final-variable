@@ -2,7 +2,7 @@
 class pengunjung {
     public static $jumlah = 0;
     public function __construct() {
-        self::$jumlah;
+        self::$jumlah++;
     }
 }
 
@@ -13,5 +13,4 @@ $p4 = new pengunjung();
 $p5 = new pengunjung();
 
 echo "Jumlah Pengunjung: " . pengunjung::$jumlah;
-
 ?>
