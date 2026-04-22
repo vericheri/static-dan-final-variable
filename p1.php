@@ -22,4 +22,4 @@ pengunjung::reset();
 
 echo "Jumlah pengunjung reset: " . pengunjung::$jumlah;
 
-?>
+?>      
