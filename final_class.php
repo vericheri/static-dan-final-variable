@@ -4,5 +4,6 @@ final class database {
         echo "Koneksi Database";
     }
 }
-
+$db = new database();
+$db->connect();
 ?>
